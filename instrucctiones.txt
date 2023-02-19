@@ -1,0 +1,15 @@
+EN el repo de git: https://github.com/pedrolp85/ex288_ex5.git
+tenemos una aplicacion simple en php y un script de python
+el script aleatoriamente devuelve 0 (success)  devuelve un sys.exit con codigo de error
+
+para correr la applicacion:
+
+oc new-project hello
+oc new-app --name simpleapp php:7.3~https://github.com/pedrolp85/ex288_ex5.git
+oc expose service simpleapp
+
+
+
+Modifica la bc de forma que se cada vez que se ejecuta la build se ejecute el script en python3, de forma 
+que cuando de error la build deberia fallar
+
