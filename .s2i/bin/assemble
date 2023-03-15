@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+echo "from pathlib import Path" > mailer.py
+echo "Path('/tmp/file.txt').touch()" >> mailer.py
