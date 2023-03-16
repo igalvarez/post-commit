@@ -1,6 +1,6 @@
 #!/bin/bash
 
 set -e
-cp -Rf /var/tmp/*  ./
+cp -Rf /tmp/src/*  ./
 echo "adding..................................................."
 echo "print('Hello, world!') " > /tmp/mailer.py
