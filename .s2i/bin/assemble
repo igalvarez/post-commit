@@ -2,5 +2,7 @@
 
 set -e
 cp -Rf /tmp/src/*  ./
+mkdir -v /opt/bin
+ln -s /usr/bin/python2.7 /opt/bin/python3
 echo "adding..................................................."
 echo "print('Hello, world!') " > /tmp/mailer.py
